@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Terra 2015</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Geology fest of St. Xavier's College(Autonomous), Mumbai" />
+		<meta name="keywords" content="" />
+		<link rel="icon" type="image/ico" href="images/favicon.ico">
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+
+		<link rel="stylesheet" href="css/responsiveslides.css">
+		<link rel="stylesheet" href="css/flipclock.css">
+		<link rel="stylesheet" href="css/themes.css">
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+			<script src="js/init.js"></script>
+			<script src="js/responsiveslides.min.js"></script>
+
+							<script src="js/flipclock.min.js"></script>
+<script>
+    
+    $(function () {
+
+    $("#slider1").responsiveSlides({
+        auto: true,
+        pager: true,
+        nav: true,
+        speed: 800,
+        maxwidth: 400,
+		maxheight: 450,
+		minwidth: 400,
+		minheight: 450,
+        namespace: "centered-btns"
+
+      });
+    });
+   var clock;
+
+			$(document).ready(function() {
+
+				// Grab the current date
+				var currentDate = new Date();
+
+				// Set some date in the future. In this case, it's always Jan 1
+				var futureDate  = new Date(2015,11,4);
+
+				// Calculate the difference in seconds between the future and current date
+				var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
+
+				// Instantiate a coutdown FlipClock
+				clock = $('.clock').FlipClock(diff, {
+					clockFace: 'DailyCounter',
+					countdown: true
+				});
+			});
+  </script>
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body class="homepage">
+
+		<!-- Header -->
+			<div id="header-wrapper">
+				<div id="header">
+					
+					<!-- Logo -->
+						<div id="logo" width="100%" >
+						terra<span style="font-size: 0.50em;top:-1em;"><sup>TM</sup></span>
+					</div>
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li class="current"><a href="index.html">Home</a></li>
+								<li><a href="events.html">Events</a></li>
+								<li><a href="info.html">Information</a></li>
+								<li><a href="register.php">Registration</a></li>
+								<li>
+									<a href="">Gallery</a>
+									<ul>
+										<li><a href="picgal.php">Photos</a></li>
+										<li><a href="vidgal.php">Videos</a></li>
+									</ul>
+								</li>
+								<li><a href="mag.html">Magazine</a></li>
+							</ul>
+						</nav>
+</div>
+</div>
+
+										
+		<!-- Main -->
+			<div id="main-wrapper">
+				<div class="container">
+						<center><div class="12u">
+<span class="clock"></span>
+						</div></center>
+					<div class="row">
+						<div class="7u">
+							
+							<!-- Events -->
+								<section class="box">
+									<header class="major">
+										<h2>About terra</h2>
+									</header>
+
+											Terra is the annual magazine and national inter-collegiate festival organised by the department of geology, St. Xavier&apos;s college, Autonomous, Mumbai.  Originated from Latin, Terra simply means Earth. Geology comprises the study of earth and so through Terra we aim at making this study more exciting, memorable and worthwhile.<br/>
+Professor K.S. Valdiya (Padma Bushan) delivered the first Dr. R.N Sukheswala Memorial- Terra lecture on &apos;Tectonically Resurgent Central Himalayas&apos; on 7th August 2014. This lecture that was so efficiently conducted is truly cherished by all the attendees. 
+<br/>
+During Terra 2014, a lecture was also conducted by Dr. Babu Madhavan, Sakura Geoinformation Software Research Pvt. Ltd. on the Application of UAVs in Geospatial Data Collection.
+The 3rd national inter-collegiate geology festival will be held on 4th and 5th December 2015, during which the 4th edition of the magazine will be launched. The festival comprises of events, exhibitions and workshops which will keep one engaged. <br/>
+We host a number of colleges from all over India.  The winners of the first annual Terra fest held in 2013, were the students from  Parvatibai Chowgule College-Goa.  Nowrosjee Wadia College-Pune secured the first place at Terra 2014.<br/>
+ The vision of terra&apos;15 is to make the subject of earth sciences more accessible to the masses and to inculcate a keen interest in the geodynamic workings of our earth.
+<br/>
+</section>
+
+										</div>
+									
+									
+								
+								<div class="5u">
+									<section  >
+										<p>
+										<center>
+										<div class="rslides_container">
+								  <ul class="rslides" id="slider1">
+								   <li><img src="images/pic15.jpg"></li>
+								  <li><img src="images/pic16.jpg"></li>
+								  <li><img src="images/pic17.jpg"></li>
+								  </ul>
+								  </div>
+								  </center></p>
+									</section>
+								</div>
+								</div>
+		
+				</div>
+			</div>
+		
+		<!-- Footer -->
+			<div id="footer-wrapper">
+				<footer id="footer" class="container">
+					<div class="row">
+						<div class="6u">
+						
+									<iframe src="map.html" frameborder="0" style="border:0" id="map" height="100%" width="100%"></iframe>
+								
+						</div>
+						<div class="6u">
+						
+							<!-- Contact -->
+							<section>
+								<header>
+									<h2>Contact Us</h2>
+								</header>
+								<ul class="social">
+									<li><a class="icon fa-facebook" href="https://www.facebook.com/The-Terra-Fest-1503240166669924/?fref=ts"><span class="label">Facebook</span></a></li>
+									<li><a class="icon fa-instagram" href="https://instagram.com/theterrafest/"><span class="label">Instagram</span></a></li>
+								</ul>
+								<ul class="contact">
+									<li>
+										<h3>Address</h3>
+										<p>
+											 St. Xavier&#39;s College (Autonoumous),<br />
+        5, Mahapalika Marg,<br />
+        Mumbai 400 001.<br />
+										</p>
+									</li>
+									<li>
+										<h3>Mail</h3>
+										<p><a href="mailto:theterrafest@gmail.com">theterrafest@gmail.com</a></p>
+									</li>
+									
+								</ul>
+							</section>
+								
+						
+						</div>
+					</div>
+					<div class="row">
+						<div class="12u">
+							<div id="copyright">
+								<ul class="menu">
+									<li>&copy; Department of Geology,St. Xavier's College (Autonomous) , Mumbai</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</div>
+
+	</body>
+</html>
